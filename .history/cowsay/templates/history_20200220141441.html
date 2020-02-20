@@ -1,0 +1,7 @@
+<h3 >Last 10 Posts</h3>
+
+<ol>{% for i in data %}
+<li><strong>{{i.text_input}}</strong>&nbsp;&nbsp;&nbsp;
+    {{i.time}}
+</li>
+{% endfor %}</ol>
